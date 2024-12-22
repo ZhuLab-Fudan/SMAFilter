@@ -1,0 +1,15 @@
+[
+    {
+        "agePattern": "年龄\\s*[\\:：]\\s*(\\d+)",
+        "filters": [
+            {
+                "ageType": 1,
+                "maxAge": 40,
+                "minAge": 14,
+                "text": "神经源性 AND (上下肢 OR (上肢 AND 下肢)) AND 前角"
+            }
+        ],
+        "id": 1,
+        "name": "复旦附属华山医院"
+    }
+]

@@ -1,0 +1,117 @@
+[
+    {
+        "agePattern": [
+            {
+                "index": 2,
+                "pattern": "(Male|Female)\\s*(\\d+)"
+            },
+            {
+                "index": 1,
+                "pattern": "年龄\\s*[\\:：]\\s*(\\d+)"
+            }
+        ],
+        "filters": [
+            {
+                "ageType": 2,
+                "maxAge": 60,
+                "minAge": 14,
+                "text": "(神经源性 OR 上下肢神经元 OR 广泛神经源性损害) AND (脊髓前角 OR 运动神经元)"
+            }
+        ],
+        "id": 1,
+        "name": "安徽医科大学第一附属医院"
+    },
+    {
+        "agePattern": [
+            {
+                "index": 1,
+                "pattern": "年龄\\s*[\\:：]\\s*(\\d+)"
+            }
+        ],
+        "filters": [
+            {
+                "ageType": 1,
+                "maxAge": 40,
+                "minAge": 14,
+                "text": "神经源性 AND 上下肢 AND 前角"
+            },
+            {
+                "ageType": 1,
+                "maxAge": 40,
+                "minAge": 14,
+                "text": "神经源性 AND 上肢 AND 下肢 AND 前角"
+            }
+        ],
+        "id": 0,
+        "name": "复旦附属华山医院"
+    },
+    {
+        "agePattern": [
+            {
+                "index": 1,
+                "pattern": "年龄\\s*[\\:：]\\s*(\\d+)"
+            }
+        ],
+        "filters": [
+            {
+                "ageType": 2,
+                "maxAge": 60,
+                "minAge": 14,
+                "text": "广泛神经源性AND(前角OR运动神经元)"
+            }
+        ],
+        "id": 3,
+        "name": "复旦附属中山医院"
+    },
+    {
+        "agePattern": [
+            {
+                "index": 1,
+                "pattern": "年龄\\s*[\\:：]\\s*(\\d+)"
+            }
+        ],
+        "filters": [
+            {
+                "ageType": 1,
+                "maxAge": 40,
+                "minAge": 14,
+                "text": "慢性神经源性 AND 颈 AND 腰骶"
+            },
+            {
+                "ageType": 2,
+                "maxAge": 0,
+                "minAge": 40,
+                "text": "广泛 AND 颈 AND 腰骶"
+            }
+        ],
+        "id": 0,
+        "name": "上海交通大学附属第六人民医院"
+    },
+    {
+        "agePattern": [
+            {
+                "index": 1,
+                "pattern": "年龄\\s*[\\:：]\\s*(\\d+)"
+            }
+        ],
+        "reportPattern": {
+            "scopeStartText": "结论"
+        },
+        "filters": [
+            {
+                "ageType": 1,
+                "maxAge": 40,
+                "minAge": 14,
+                "text": "慢性神经源性 AND 颈 AND 腰骶"
+            },
+            {
+                "ageType": 2,
+                "maxAge": 0,
+                "minAge": 40,
+                "text": "广泛 AND 颈 AND 腰骶"
+            }
+        ],
+        "id": 4,
+        "name": "南京脑科医院"
+    }
+]
